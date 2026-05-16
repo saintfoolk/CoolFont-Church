@@ -293,6 +293,10 @@ h3 {
   padding-right: clamp(0px, 4vw, 54px);
 }
 
+.worship-title {
+  font-size: clamp(1.9rem, 4vw, 3.65rem);
+}
+
 .feature-intro p,
 .content-section p,
 .guide-section p {
