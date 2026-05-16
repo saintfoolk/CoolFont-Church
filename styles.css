@@ -1,10 +1,12 @@
 :root {
-  --ink: #101a14;
-  --muted: #33483c;
+  --ink: #173a35;
+  --muted: #21443d;
   --paper: #fbfaf3;
   --cream: #eee7d8;
   --mist: #e1ebe4;
   --forest: #203f31;
+  --deep-teal: #143f3b;
+  --deep-teal-ink: #173a35;
   --leaf: #5f7f5a;
   --gold: #d1a85c;
   --line: rgba(23, 34, 27, 0.16);
@@ -422,7 +424,7 @@ h3 {
 .feature-intro p,
 .content-section p,
 .guide-section p {
-  color: #24382d;
+  color: #21443d;
   font-size: 1.08rem;
   font-weight: 650;
   line-height: 1.84;
@@ -433,7 +435,7 @@ h3 {
 .cards-grid article {
   border: 1px solid rgba(16, 26, 20, 0.2);
   border-radius: 8px;
-  color: #101a14;
+  color: var(--deep-teal-ink);
   background: #fffdf8;
 }
 
@@ -444,9 +446,16 @@ h3 {
 .program-grid h3,
 .cards-grid h2,
 .cards-grid h3 {
-  color: #101a14;
+  color: var(--deep-teal);
   opacity: 1;
   font-weight: 900;
+}
+
+.worship-title,
+.worship-title span {
+  color: var(--deep-teal);
+  opacity: 1;
+  font-weight: 950;
 }
 
 .feature-card {
@@ -467,7 +476,7 @@ h3 {
 
 .feature-card p,
 .program-grid p {
-  color: #24382d;
+  color: #21443d;
   font-weight: 650;
   line-height: 1.75;
 }
@@ -548,13 +557,13 @@ blockquote span {
 }
 
 .profile-bio p {
-  color: #24382d;
+  color: #21443d;
   font-weight: 650;
   margin: 0;
 }
 
 .profile-role {
-  color: #101a14;
+  color: var(--deep-teal);
   font-size: 1.05rem;
   font-weight: 850;
 }
