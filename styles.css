@@ -330,6 +330,13 @@ h3 {
   line-height: 1.75;
 }
 
+.feature-card h3 a,
+.program-grid h3 a {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
+
 .quote-section {
   padding: clamp(70px, 9vw, 118px) clamp(20px, 6vw, 92px);
   background: var(--forest);
