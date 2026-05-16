@@ -342,16 +342,20 @@ h3 {
 }
 
 .quote-section {
-  padding: clamp(70px, 9vw, 118px) clamp(20px, 6vw, 92px);
-  background: var(--forest);
+  padding: clamp(64px, 8vw, 104px) clamp(20px, 6vw, 92px);
+  background:
+    linear-gradient(90deg, rgba(16, 24, 18, 0.22), rgba(16, 24, 18, 0)),
+    var(--forest);
   color: #fffdf8;
 }
 
 blockquote {
-  max-width: 980px;
-  font-size: clamp(2rem, 5vw, 4.7rem);
-  line-height: 1.2;
+  max-width: 920px;
+  margin-bottom: 0;
+  font-size: clamp(1.75rem, 3.6vw, 3.2rem);
+  line-height: 1.44;
   font-weight: 800;
+  word-break: keep-all;
 }
 
 .content-section {
