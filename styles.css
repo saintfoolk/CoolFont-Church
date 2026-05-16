@@ -409,11 +409,29 @@ blockquote span {
   margin-bottom: 10px;
 }
 
-.profile-card a {
-  color: var(--forest);
+.profile-bio {
+  display: grid;
+  gap: 8px;
+}
+
+.profile-bio p {
+  margin: 0;
+}
+
+.profile-role {
+  font-size: 1.05rem;
   font-weight: 850;
-  text-decoration: underline;
-  text-underline-offset: 3px;
+}
+
+.profile-card a {
+  color: inherit;
+  text-decoration: none;
+  transition: color 160ms ease;
+}
+
+.profile-card a:hover,
+.profile-card a:focus-visible {
+  color: var(--forest);
 }
 
 .program-section {
