@@ -422,18 +422,31 @@ h3 {
 .feature-intro p,
 .content-section p,
 .guide-section p {
-  color: var(--muted);
+  color: #24382d;
   font-size: 1.08rem;
-  font-weight: 520;
+  font-weight: 650;
   line-height: 1.84;
 }
 
 .feature-card,
 .program-grid article,
 .cards-grid article {
-  border: 1px solid var(--line);
+  border: 1px solid rgba(16, 26, 20, 0.2);
   border-radius: 8px;
-  background: rgba(255, 253, 248, 0.92);
+  color: #101a14;
+  background: #fffdf8;
+}
+
+.feature-section h2,
+.content-section h2,
+.program-section h2,
+.feature-card h3,
+.program-grid h3,
+.cards-grid h2,
+.cards-grid h3 {
+  color: #101a14;
+  opacity: 1;
+  font-weight: 900;
 }
 
 .feature-card {
@@ -446,16 +459,22 @@ h3 {
 .program-grid span {
   display: block;
   margin-bottom: 18px;
-  color: var(--gold);
+  color: #8f5e12;
   font-size: 0.82rem;
   font-weight: 900;
+  opacity: 1;
 }
 
 .feature-card p,
 .program-grid p {
-  color: var(--muted);
-  font-weight: 520;
+  color: #24382d;
+  font-weight: 650;
   line-height: 1.75;
+}
+
+.cards-grid .eyebrow {
+  color: #8f5e12;
+  opacity: 1;
 }
 
 .feature-card h3 a,
@@ -529,10 +548,13 @@ blockquote span {
 }
 
 .profile-bio p {
+  color: #24382d;
+  font-weight: 650;
   margin: 0;
 }
 
 .profile-role {
+  color: #101a14;
   font-size: 1.05rem;
   font-weight: 850;
 }
