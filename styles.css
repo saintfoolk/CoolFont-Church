@@ -1,6 +1,6 @@
 :root {
-  --ink: #17221b;
-  --muted: #506358;
+  --ink: #101a14;
+  --muted: #33483c;
   --paper: #fbfaf3;
   --cream: #eee7d8;
   --mist: #e1ebe4;
@@ -424,6 +424,7 @@ h3 {
 .guide-section p {
   color: var(--muted);
   font-size: 1.08rem;
+  font-weight: 520;
   line-height: 1.84;
 }
 
@@ -453,6 +454,7 @@ h3 {
 .feature-card p,
 .program-grid p {
   color: var(--muted);
+  font-weight: 520;
   line-height: 1.75;
 }
 
@@ -651,9 +653,40 @@ blockquote span {
 }
 
 .map-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
   width: fit-content;
-  color: #fff6df;
+  padding: 12px 20px;
+  border-radius: 8px;
+  color: #fff;
+  background: #03c75a;
+  font-size: 0.95rem;
   font-weight: 800;
+  text-decoration: none;
+  transition:
+    background 160ms ease,
+    transform 160ms ease;
+}
+
+.map-link::before {
+  content: "N";
+  display: inline-grid;
+  place-items: center;
+  width: 18px;
+  height: 18px;
+  border-radius: 4px;
+  color: #03c75a;
+  background: #fff;
+  font-size: 0.78rem;
+  font-weight: 950;
+  line-height: 1;
+}
+
+.map-link:hover,
+.map-link:focus-visible {
+  background: #02b351;
+  transform: translateY(-1px);
 }
 
 .guide-list strong {
