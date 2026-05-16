@@ -315,7 +315,7 @@ h3 {
 .button.primary {
   border-color: transparent;
   background: #fff2cf;
-  color: var(--ink);
+  color: var(--deep-teal);
 }
 
 .section-inner {
@@ -390,14 +390,16 @@ h3 {
 }
 
 .feature-section {
-  background: var(--paper);
+  background:
+    linear-gradient(180deg, rgba(7, 22, 15, 0.96), rgba(7, 22, 15, 0.98)),
+    var(--forest);
 }
 
 .feature-section,
 .content-section,
 .program-section,
 .guide-section {
-  color: var(--ink);
+  color: var(--deep-teal);
 }
 
 .feature-grid {
@@ -453,9 +455,17 @@ h3 {
 
 .worship-title,
 .worship-title span {
-  color: var(--deep-teal);
+  color: #fffdf4;
   opacity: 1;
   font-weight: 950;
+}
+
+.feature-intro .eyebrow {
+  color: #d1a85c;
+}
+
+.feature-intro p {
+  color: rgba(255, 253, 244, 0.9);
 }
 
 .feature-card {
